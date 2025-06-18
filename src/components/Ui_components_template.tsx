@@ -1,8 +1,9 @@
 import React from "react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Card, CardContent } from "@/components/ui/card";
+import {BtnType} from "@/components/components_library/Buttons/Btn_list";
 
-const Ui_components_template = (data: any) => {
+const Ui_components_template = (data: BtnType) => {
   return (
     <>
       <Card className=" border-none ">

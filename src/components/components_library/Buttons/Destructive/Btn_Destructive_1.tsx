@@ -8,7 +8,7 @@ import { AnimatePresence, motion } from "motion/react"
 const Btn_Destructive_1 = () => {
 
     const [showText, setShowText] = React.useState(false);
-    const BtnText:String = "Delete";
+    const BtnText:string = "Delete";
     const length= BtnText.length;
        // Add timeout handling
     const handleHoverEnd = () => {
